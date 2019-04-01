@@ -1,0 +1,8 @@
+Import csvfile
+
+with open ('budget.csv') as cssvfile:
+    readCSV = csv.reader(csvfile, delimiter=','
+    for row in readcsv:
+        print(row)
+        print(row[0])
+        print(row[0],row{1})
